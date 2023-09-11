@@ -85,6 +85,14 @@ footer {
     border-color: antiquewhite;
 }
 
+table {
+    border:#131240;
+}
+
+tr, td {
+    border: 4px solid #131240;
+}
+
 @media (min-width: 786px) {
     nav li {
         display: inline-block;
@@ -127,3 +135,35 @@ footer {
     }
 }
 
+
+@media (min-width: 1024px) {
+    
+    #container  {
+        width: 65%;
+        margin: 20px auto;
+    }
+    nav li a {
+        background-color: #131240;
+        border: 0;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid #131240;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .single_page {
+        width: 100%;
+
+    }
+
+    section img {
+        width: 75%;
+    }
+}
